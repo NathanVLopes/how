@@ -1,0 +1,151 @@
+body{
+    background-image: url(https://blog.ebaconline.com.br/blog/wp-content/uploads/2022/12/kcnb4lkkucfipej3ngqxm-scaled-e1674744655926.jpeg);
+    background-size: cover;
+}
+ 
+.central{
+    background-color:rgba(24, 161, 185, 0);
+    height:103px;
+    box-sizing: border-box;  
+    transform: translateY(-50px);
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:absolute;
+    transform: translateY(-1px);
+    margin-left: 115px; 
+    -webkit-text-stroke: 4px black ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.bot{
+    background-image: url(https://blog.ebaconline.com.br/blog/wp-content/uploads/2022/12/kcnb4lkkucfipej3ngqxm-scaled-e1674744655926.jpeg);
+    height: 198px;
+    width: 430px;
+    transform: translateY(-5px);
+}
+
+
+.homerl{
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 3px black ;
+    
+}
+.barra{
+    background-image: url(https://blog.ebaconline.com.br/blog/wp-content/uploads/2022/12/kcnb4lkkucfipej3ngqxm-scaled-e1674744655926.jpeg);
+    position: absolute;
+    left: 2px;
+}
+
+.homegr{
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 3px black ;
+}
+
+.hometor{
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 3px black ;
+}
+
+.homeajud{
+    text-decoration: none;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 3px black ;
+    
+}
+
+.homem{
+    float: left;
+    max-width: 150vmin;
+    max-height: 150vmin;
+    display: block;
+ 
+}
+
+button:hover{
+    background-color: rgb(28, 28, 150);
+    cursor: pointer;
+}
+
+
+.item-menu{
+    float: right;
+    transform: translateY(+60px);
+    margin-right: 70px;
+    font-size: 50px;
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.cont{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    position: absolute;
+    right: 5px;
+    height: 790px;
+    width: 1482px;
+    transform: translateY(-5px);
+}
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.bar{
+    width: 20px;
+    height: 17px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: .4s;
+}
+.bar:hover{
+    background-color: #fff;
+}
+input{
+    display: none;
+
+}
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}

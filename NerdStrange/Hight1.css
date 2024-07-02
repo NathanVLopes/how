@@ -1,0 +1,106 @@
+/* Hight1.css */
+
+body {
+    background-image: url(https://blog.ebaconline.com.br/blog/wp-content/uploads/2022/12/kcnb4lkkucfipej3ngqxm-scaled-e1674744655926.jpeg);
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+
+.inicio {
+    text-align: center;
+    padding: 20px;
+}
+
+.voltar {
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.card {
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-title {
+    font-size: 24px;
+}
+
+.modal-footer {
+    justify-content: space-between;
+}
+
+.form-control-file {
+    padding: 10px;
+}
+
+.like-btn {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.like-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.likes-count {
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .inicio h1 {
+        font-size: 28px;
+    }
+    .modal-content {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,174 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.header h2 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h2 i {
+    margin-right: 10px;
+}
+
+.user-info {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    flex-shrink: 0;
+}
+
+.user-info input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.users-list {
+    width: 200px;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
+
+.users-list h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.users-list div {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.users-list div:hover {
+    background-color: #f1f1f1;
+}
+
+.chat-box .message, .private-chat-box .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.chat-box .message .username, .private-chat-box .message .username {
+    font-weight: bold;
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+.chat-box .message .timestamp, .private-chat-box .message .timestamp {
+    font-size: 12px;
+    color: #888;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.private-chat-box .message {
+    background-color: #e2f0cb;
+}
+
+.private-chat-box .message .username {
+    color: #ffa500;
+}
+
+.private-chat-box .message .timestamp {
+    color: #555;
+}
+
+
+form {
+    display: flex;
+    padding: 15px;
+    background-color: #f9f9f9;
+    flex-shrink: 0;
+    border-top: 1px solid #ddd;
+}
+
+form input[type="text"], form select {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+form button i {
+    margin-right: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    flex-shrink: 0;
+}
